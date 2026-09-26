@@ -1,0 +1,16 @@
+[project]
+name = "arxiv-paper-rag-assistant"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "rrozdoce", email = "felipefelipevilhalva@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+arxiv-paper-rag-assistant = "arxiv_paper_rag_assistant:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
