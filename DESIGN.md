@@ -101,3 +101,6 @@
 
 **Extensão 2 — Memória de conversa:**
 - Agente mantém contexto entre perguntas na mesma sessão/canal, permitindo perguntas de acompanhamento sem repetir o contexto.
+
+**Extensão 3 — Integração com WhatsApp:**
+- Segunda interface de usuário, além do Discord. Só entra depois que o MVP estiver testado e funcionando no Discord — a interface de chat é tratada como camada substituível (bot/), então o agente/retrieval/ingestão não deveriam precisar mudar.
