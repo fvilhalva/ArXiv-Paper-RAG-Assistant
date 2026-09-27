@@ -1,9 +1,9 @@
 ---
-name: recap
-description: Recap the ArXiv Paper RAG Assistant — reads DESIGN.md and cronograma.md, checks git state, and reports what the project is, what phase/tasks we're on, and the working rules for this project (guide-only, ask before acting). Use when the user runs /recap in this repo or asks "onde paramos", "recapitula", or wants a refresher before continuing. Read-only.
+name: recap-arxiv
+description: Recap the ArXiv Paper RAG Assistant specifically — reads DESIGN.md and cronograma.md, checks git state, and reports what the project is, what phase/tasks we're on, and the working rules for this project (guide-only, ask before acting). Use when the user runs /recap-arxiv in this repo, or /recap and the global variant's generic memory-based recap isn't enough. Read-only.
 ---
 
-# /recap — ArXiv Paper RAG Assistant
+# /recap-arxiv — ArXiv Paper RAG Assistant
 
 This skill is scoped to this repo only. It's read-only: never edit files, commit,
 push, install dependencies, or write code as part of running this skill.
